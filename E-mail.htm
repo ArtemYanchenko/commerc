@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<!-- saved from url=(0286)https://delifast.kit-app.ru/media/sendMailFile/None/DeliFast_%D0%9A%D0%BE%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%B2_%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B8_.html -->
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        hr {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+        .button-container a {
+            text-decoration: none;
+            outline: none;
+            color: black;
+            font-weight: 900;
+            display: inline-block;
+            position: relative;
+            padding: 15px 30px;
+            border: 1px solid;
+            border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+            border-image-slice: 1;
+            margin: 10px 20px;   font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            overflow: hidden;
+            letter-spacing: 2px;
+            transition: .4s cubic-bezier(.165,.84,.44,1);
+        }
+        .button-container a:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 0;
+            width: 100%;
+            z-index: -1;
+            color: white;
+            background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+            transition: .4s cubic-bezier(.165,.84,.44,1);
+        }
+        a:hover {background: rgba(255,255,255,0);}
+        a:hover:before {
+            bottom: 0%;
+            top: auto;
+            height: 100%;
+        }
+
+        /* Блоки */
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .footer {
+            display: flex;
+            margin: 25px 0px;
+        }
+
+        .phone {
+            padding-left: 10px;
+            width: 50%;
+        }
+
+        .email {
+            padding-left: 10px;
+            width: 50%; 
+        }
+
+        .footer-link {
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        .footer-link:last-child {
+            position: relative;
+            top: 25px;
+            font-size: 30px;
+        }
+
+        .macbook-div {
+            height: 100%;
+        }
+
+        /* Картинки */
+        .img {
+            width: 100%;
+        }
+
+        .img-about {
+            width: 150px;
+            float: right;
+        }
+
+        .img-icons {
+            width: 50px;
+            float: left;
+            margin: 10px;
+        }
+
+        .img-icons-footer {
+            width: 80px;
+            float: left;
+            margin: 10px;
+        }
+
+        .icons {
+            float: left;
+            margin: 8px;
+            width: 150px;
+            margin-right: 35px;
+        }
+
+        .iphone-text-img {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .android-text-img {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .android-text {
+            padding-right: 25px;
+        }
+
+        /* Текст */
+        .heading-1 {
+            text-align: center;
+            width: 800px;
+            color: black;
+            font-size: 32px;
+            line-height: 1.5em;
+            margin: 0px;
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .heading-2 {
+            text-align: center;
+            font-size: 25px;
+        }
+        .border-heading {
+            border-style: dotted;
+            border-width: 1px;
+            padding: 5px;
+        }
+
+        .justify {
+            text-align: justify;
+            font-size: 17px;
+        }
+
+        p {
+            margin: 0px;
+            font-size: 17px;
+            padding-left: 15px;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        #delivery-h3 {
+            margin-top: 15px;
+            margin-bottom: 43px;
+        }
+
+        #prof-team-h3 {
+            margin-top: 6px;
+        }
+
+        .iphone-text-img {
+            
+        }
+
+        /* Колонки */
+        .col-2 {
+            float: left;
+            width: 50%;
+            font-size: 20px;
+        }
+
+        .col-3 {
+            float: left;
+            width: 50%;
+            font-size: 20px;
+        }
+
+        .col-33 {
+            float: left;
+            width: 33.33%;
+            font-size: 20px;
+        }
+
+        /* Разметка */
+        .mt-10 {
+            margin-top: 10px;
+        }
+
+        .mb-10 {
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .ml-20 {
+            margin-left: 20px;
+        }
+
+        .mr-20 {
+            margin-right: 20px;
+        }
+
+        .fs-15 {
+            font-size: 17px;
+        }
+
+        .fs-150 {
+            margin: 0px 15px 20px 0px;
+            padding: 0px;
+        }
+
+        .lh-5 {
+            line-height: 5;
+            font-size: 20px;
+        }
+
+        @media only screen and (max-width : 780px) {
+            .heading-1 {
+                text-align: center;
+                top: 280px;
+                width: 95%;
+                color: black;
+                font-size: 18px;
+            }
+
+            .container {
+                margin-bottom: 0px;
+            }
+
+            .content {
+                max-width: 700px;
+            }
+
+            hr {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .heading {
+                margin-bottom: 10px;
+                margin-top: 10px;
+                font-size: 17px;
+            }
+
+            .justify {
+            font-size: 14px;
+             }
+
+             #delivery-h3 {
+            margin-bottom: 0px;
+             }
+
+            .img-icons {
+                width: 23px;
+                margin: 0;
+                margin-right: 5px;
+            }
+
+            h3 {
+                font-size: 13px;
+                margin-top: 1px;
+            }
+
+            p {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-size: 14px;
+            }
+
+            .ml-20 {
+                margin-left: 5px;
+            }
+
+            .mr-20 {
+                margin-right: 5px;
+            }
+
+            .fs-15 {
+                font-size: 12px;
+                margin-right: 5px;
+            }
+
+            .mt-10 {
+                margin-top: 0;
+            }
+
+            h5 {
+                font-size: 16px;
+                margin-right: 5px;
+            }
+        }
+
+        @media only screen and (max-width : 480px) {
+            .heading-1 {
+                text-align: center;
+                position: absolute;
+                top: 150px;
+                width: 95%;
+                color: black;
+                text-shadow: 1px 1px 2px black;
+                font-size: 12px;
+            }
+
+            .icons {
+                width: 35px;
+                margin: 0;
+                margin-right: 5px;
+            }
+
+            li {
+                margin: 0px;
+            }
+
+            .justify {
+                font-size: 10px;
+            }
+
+            .container {
+                margin-bottom: 0px;
+            }
+
+            .content {
+                max-width: 400px;
+            }
+
+            hr {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .heading {
+                font-size: 16px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+
+            }
+
+            .img-icons {
+                width: 15px;
+                margin: 0;
+                margin-right: 5px;
+            }
+
+            h3 {
+                font-size: 12px;
+                margin-top: 1px;
+            }
+
+            p {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .ml-20 {
+                margin-left: 5px;
+            }
+
+            .mr-20 {
+                margin-right: 5px;
+            }
+
+            .fs-15 {
+                font-size: 10px;
+                margin-right: 5px;
+            }
+
+            .mt-10 {
+                margin-top: 0;
+            }
+
+            h5 {
+                font-size: 11px;
+                margin-right: 5px;
+            }
+        }
+
+        @media only screen and (max-width : 380px) {
+            .heading-1 {
+                text-align: center;
+                position: absolute;
+                top: 140px;
+                width: 95%;
+                color: white;
+                text-shadow: 1px 1px 2px black;
+                font-size: 12px;
+            }
+
+            .icons {
+                width: 35px;
+                margin: 0;
+                margin-right: 5px;
+            }
+
+            .justify {
+                font-size: 10px;
+            }
+
+            .container {
+                margin-bottom: 0px;
+            }
+
+            .content {
+                max-width: 380px;
+            }
+
+            hr {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .heading {
+                font-size: 16px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+
+            .img-icons {
+                width: 15px;
+                margin: 0;
+                margin-right: 5px;
+            }
+
+            h3 {
+                font-size: 12px;
+                margin-top: 1px;
+            }
+
+            p {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .ml-20 {
+                margin-left: 5px;
+            }
+
+            .mr-20 {
+                margin-right: 5px;
+            }
+
+            .fs-15 {
+                font-size: 10px;
+                margin-right: 3px;
+            }
+
+            .mt-10 {
+                margin-top: 0;
+            }
+
+            h5 {
+                font-size: 11px;
+                margin-right: 3px;
+            }
+        }
+    </style>
+    <title>DeliFast</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="container">
+            <img class="img" src="E-mail_files/dilshot2.png">
+            <h2 class="heading-1">
+                Курьерские услуги по Москве и МО от 265р.<br>Фулфилмент (холодильные и тёплые склады)
+            </h2>
+        </div>
+
+        <div class="container">
+            <img class="icons" src="E-mail_files/boss.svg">
+            <ul class="justify">
+                <li>Вам надоели постоянные проблемы с доставкой, хранением и упаковкой Ваших грузов?</li>
+                <li>Недобросовестные работники путают адреса, портят товар и небрежны в обращении с ним?</li>
+                <li> Все нужно проверять и контролировать, а у Вас нет на это времени?</li>
+            </ul>
+            <br>
+            <p> Компания DeliFast возьмет на себя все Ваши заботы по транспортировке, хранению, расфасовке и доставке до
+                клиентов Ваших товаров.</p>
+
+        </div>
+
+        <hr>
+
+        <h2 class="heading">Посмотрите, как это работает</h2>
+        <div class="container">
+            <img class="img" src="E-mail_files/MyCollages.png">
+            <div class="heading col-33">Забираем Ваш груз</div>
+            <div class="heading col-33">Размещаем на складах, <br>маркируем, переупаковываем</div>
+            <div class="heading col-33">Доставляем клиенту</div>
+        </div>
+
+        <hr>
+
+        <h2 class="heading">Вы получаете:</h2>
+        <div class="container">
+            
+            <div class="col-2">
+                <img class="img-icons" src="E-mail_files/money.svg">
+                <h3>Низкую стоимость</h3>
+                <p class="ml-20 mr-20 fs-15">
+
+                    Kомпания DeliFast может предложить:
+                </p>
+                <ul class="fs-15">
+                    <li>доставка по Москве <b>от 265 руб</b>;</li>
+                    <li>доставка по МО <b>от 350 руб</b>;</li>
+                    <li>самовывоз по Москве <b>от 100 руб</b>;</li>
+                    <li>хранение расчитывается индивидуально.</li>
+
+                </ul>
+                </p>
+            </div>
+
+            <div class="col-2">
+                <img class="img-icons" src="E-mail_files/api.svg">
+                <h3>Удобный IT-сервис</h3>
+                <p class="ml-20 mr-20 fs-15">
+                    С его помощью можно:
+                </p>
+                <ul class="fs-15">
+                    <li>быстро и просто создавать заявки на доставку; </li>
+                    <li>отслеживать статус доставки и вносить корректировки в режиме реального времени;</li>
+                    <li>API-интеграция с Вашим ПО;</li>
+                    <li>автоматически формировать необходимую документацию;</li>
+                    <li>автоматически отправлять SMS с Вашим индивидуальным текстом.</li>
+                </ul>
+                <p></p>
+            </div>
+
+            <div class="col-2">
+                <img class="img-icons" src="E-mail_files/fast-delivery.svg">
+                <h3 id="delivery-h3">Сжатые сроки доставки</h3>
+                <p class="ml-20 mr-20 fs-15">
+                </p>
+                <ul class="fs-15">
+                    <li>Автомобили автопарка компании работают в режиме 24/7, благодаря чему грузы доставляются в
+                        максимально сжатые сроки;</li>
+                    <li>Холодные склады позволяют хранить охлаждённые и замороженные товары.</li>
+                </ul>
+                <p></p>
+            </div>
+
+            <div class="col-2">
+                <img class="img-icons" src="E-mail_files/businessman.svg">
+                <h3 id="prof-team-h3">Профессиональную команду</h3>
+                <p class="ml-20 mr-20 fs-15">
+                </p>
+                <ul class="fs-15">
+                    <li>Наш CALL-центр сообщит Вашим клиентам предварительно о точном времени доставки;</li>
+                    <li>Личный менеджер всегда поможет уладить внештатные ситуации.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h2 class="heading">Несколько слов о компании DeliFast – для тех, кто с ней не знаком:</h2>
+        <div class="container">
+            <p class="fs-15">
+                <img class="img-about" src="./E-mail_files/image003.jpg">
+                DeliFast – динамично развивающаяся транспортно-логистическая компания,
+                имеющая собственные автопарк и складские помещения. В штате компании –
+                молодые квалифицированные работники, чей энтузиазм и желание развиваться
+                в сфере логистики компенсирует отсутствие многолетнего опыта.
+                Компания занимается транспортировкой грузов любых объемов по Москве и МО,
+                а также их хранением, расфасовкой и доставкой клиентам.<br>
+                <span class="lh-5"><b><i>DeliFast – доставим быстро и бережно!</i></b></span>
+            </p>
+        </div>
+        <hr>
+        <h2 class="heading">Возможно, у Вас уже есть постоянная транспортная компания...</h2>
+        <p class="fs-15">… и она прекрасно справляется со своими обязанностями.</p>
+        <p class="fs-15">Это отлично!</p>
+        <p class="fs-15">
+            Однако может произойти такая ситуация, что Вам потребуется срочно доставить какой-то груз, или не хватит
+            складских помещений, и не будет времени на поиски других.
+            Всегда лучше иметь под рукой альтернативный вариант.
+            Мы предлагаем Вам оценить простоту и удобство нашего агрегатора, <b>пройдя по ссылке</b>: <div class="button-container"><a href="https://delifast.kit-app.ru/" class="btn-deli"><b>DeliFast</b></a></div>
+        </p>
+        <hr>
+        <div class="it-div">
+            <h2 class="heading">
+                Наши IT-продукты
+            </h2>
+            <div class="it-div-photo">
+                <div class="macbook-div">
+                    <img id="photo-macbook" src="E-mail_files/photo/mbpro.png" alt="mb-pro" width="800px">
+                </div>
+               
+                <div class="iphone-text-img">
+                    <div class="iphone-photo">
+                        <img id="img-iphone" src="E-mail_files/photo/android.png" alt="android" width="185px">
+                    </div>
+
+                    <div class="iphone-text">
+                        <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut ipsum quis urna elementum tristique. Integer ultrices vehicula mollis. Maecenas dictum, tellus ut ultricies mollis, magna nisl commodo lorem, at pellentesque nisi nunc a est. Ut dignissim vulputate lorem, sed ullamcorper nisi lobortis in. Ut sed rhoncus nibh. Sed ornare augue vel leo finibus, id maximus justo dapibus. Ut eget ipsum volutpat, vehicula ex in, sagittis lectus. Vestibulum consectetur a tellus a bibendum.</p><br>
+                        <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Aenean dignissim massa pretium tortor lobortis faucibus. Praesent volutpat lorem dolor, in semper tellus iaculis ac. Nunc pharetra, ante id aliquam auctor, eros purus sollicitudin tortor, non malesuada nulla ipsum non augue. Cras eget faucibus diam. Proin quis consectetur turpis. Proin at lorem tellus. Fusce in euismod dolor. Etiam aliquam et tortor laoreet finibus. Aliquam sed turpis ullamcorper, malesuada enim vitae, gravida ligula. Cras at porta quam. Pellentesque ornare tincidunt ligula non ultrices. Proin nulla ipsum, elementum a diam at, feugiat sodales metus. Cras vel diam ut nunc rhoncus pellentesque. Nulla imperdiet, nulla sed posuere accumsan, risus ex tempus odio, eu imperdiet augue lectus eget odio.
+                        </p>
+                    </div>
+                </div>
+                           
+                <div class="android-text-img">
+                    <div class="android-text">
+                        <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut ipsum quis urna elementum tristique. Integer ultrices vehicula mollis. Maecenas dictum, tellus ut ultricies mollis, magna nisl commodo lorem, at pellentesque nisi nunc a est. Ut dignissim vulputate lorem, sed ullamcorper nisi lobortis in. Ut sed rhoncus nibh. Sed ornare augue vel leo finibus, id maximus justo dapibus. Ut eget ipsum volutpat, vehicula ex in, sagittis lectus. Vestibulum consectetur a tellus a bibendum.</p><br>
+                        <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Aenean dignissim massa pretium tortor lobortis faucibus. Praesent volutpat lorem dolor, in semper tellus iaculis ac. Nunc pharetra, ante id aliquam auctor, eros purus sollicitudin tortor, non malesuada nulla ipsum non augue. Cras eget faucibus diam. Proin quis consectetur turpis. Proin at lorem tellus. Fusce in euismod dolor. Etiam aliquam et tortor laoreet finibus. Aliquam sed turpis ullamcorper, malesuada enim vitae, gravida ligula. Cras at porta quam. Pellentesque ornare tincidunt ligula non ultrices. Proin nulla ipsum, elementum a diam at, feugiat sodales metus. Cras vel diam ut nunc rhoncus pellentesque. Nulla imperdiet, nulla sed posuere accumsan, risus ex tempus odio, eu imperdiet augue lectus eget odio.
+                        </p>
+                    </div>
+                    <div class="iphone-photo">
+                        <img id="img-android" src="E-mail_files/photo/iPhone X Template.png" alt="iphone" width="200px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <h2 class="heading">Вы спрашиваете – мы отвечаем</h2>
+        <div class="container">
+            <div class="col-3">
+                <h5 class="mt-10 mb-10">Какие у Вас расценки по наложенным платежам?</h5>
+                <p class="fs-150">
+                    Эквайринг <b>2,5%</b> (собственные терминалы
+                    для безналичной оплаты). Оплата наличными <b>1%</b>.
+                </p>
+            </div>
+            <div class="col-3">
+                <h5 class="mt-10 mb-10">Что происходит, если груз утерян или поврежден?</h5>
+                <p class="fs-150">
+                    В случае утери или порчи груза компания компенсирует <b>100%</b> его себестоимости.
+                </p>
+            </div>
+            <div class="col-3">
+                <h5 class="mt-10 mb-10">Как сделать заявку на доставку и отследить ее статус?</h5>
+                <p class="fs-150">
+                    Это можно сделать в личном кабинете.
+                    Там же ее можно отследить в онлайн-режиме.
+                </p>
+            </div>
+
+            <div class="col-3">
+                <h5 class="mt-10 mb-10">Каким образом конечный получатель узнает о доставке?</h5>
+                <p class="fs-150">
+                    Автоматическое SMS или звонок оператора call-центра.
+                </p>
+            </div>
+
+            <div class="col-3">
+                <h5 class="mt-10 mb-10">Как быстро производится<br>срочная доставка?</h5>
+                <p class="fs-150">
+                    Груз забирается у Заказчика в течение двух часов с момента создания заявки,
+                    доставка производится в течение четырех часов.
+                </p>
+            </div>
+
+            <div class="col-3">
+                <h5 class="mt-10 mb-10">Как рассчитывается стоимость доставки?</h5>
+                <p class="fs-150">
+                    Автоматически в приложении.
+                    до оформления заявки.
+                </p>
+            </div>
+        </div>
+        <hr> 
+        <h2 class="heading">Развивайтесь и получайте прибыль вместе с нами!</h2>
+        <div class="button-container"><a href="https://delifast.kit-app.ru/">Перейти на платформу DeliFast</a></div>
+        <hr>
+
+        <div class="footer">
+            <div class="phone">
+                <img class="img-icons-footer" src="E-mail_files/call.svg" alt="call">
+                <a class="footer-link" href="callto:89957950783">+7 (995) 795-07-83</a><br>
+                <a class="footer-link" href="callto:84950852905">+7 (495) 085-29-05</a>
+            </div>
+            <div class="email">
+                <img class="img-icons-footer" src="E-mail_files/email.svg" alt="email">
+                <a class="footer-link" href="mailto:DeliFast@Kit-App.ru">delifast@kit-app.ru</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
